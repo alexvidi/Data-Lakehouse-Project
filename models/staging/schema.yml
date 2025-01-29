@@ -1,0 +1,19 @@
+version: 2
+
+sources:
+  - name: my_database
+    database: MY_DATABASE
+    schema: MY_SCHEMA
+    tables:
+      - name: PRODUCTS
+
+models:
+  - name: stg_products
+    description: "Staging table for products data"
+    
+  - name: int_products
+    description: "Intermediate table for cleaned and structured products data"  
+
+  - name: final_products
+    description: "Final table ready for visualization in Power BI"  
+
