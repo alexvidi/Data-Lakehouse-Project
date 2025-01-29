@@ -1,15 +1,16 @@
-Welcome to your new dbt project!
+#  Scalable Data Lakehouse for Sales Analytics with Snowflake & Power BI
 
-### Using the starter project
+##  Overview
+This project implements a **scalable Data Lakehouse** using **Snowflake, dbt, and Power BI** for data ingestion, transformation, and visualization. Data is stored in **Azure Data Lake Storage**, processed with **dbt**, and analyzed using **Power BI**.
 
-Try running the following commands:
-- dbt run
-- dbt test
+##  Technologies
+- **Azure Data Lake Storage** – Cloud data storage  
+- **Snowflake** – Data warehouse  
+- **dbt** – Data transformation  
+- **Power BI** – Data visualization  
+- **Python** – Data extraction and loading  
 
-
-### Resources:
-- Learn more about dbt [in the docs](https://docs.getdbt.com/docs/introduction)
-- Check out [Discourse](https://discourse.getdbt.com/) for commonly asked questions and answers
-- Join the [chat](https://community.getdbt.com/) on Slack for live discussions and support
-- Find [dbt events](https://events.getdbt.com) near you
-- Check out [the blog](https://blog.getdbt.com/) for the latest news on dbt's development and best practices
+##  Project Stages
+1. **Data Ingestion**: Extract sales data and store it in **Azure Data Lake**.  
+2. **Transformation with dbt**: Clean and structure data in **Snowflake** using staging, intermediate, and final models.  
+3. **Analysis & Visualization**: Create interactive dashboards in **Power BI** connected to Snowflake. 
